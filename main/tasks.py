@@ -21,3 +21,26 @@ def girlC():
     while True:
         print("don't watch me infinitely")
     return 'girl said'
+
+@shared_task
+def p4():
+    while True:
+        print("i am 4")
+    return 'i am 4'
+
+@shared_task
+def p3():
+    while True:
+        print("i am 3")
+    return 'i am 3'
+@shared_task
+def p1(txt):
+    while True:
+        print(txt)
+    return 'p1'
+
+@shared_task
+def p2():
+    while True:
+        print("i am 2")
+    return 'p2'
